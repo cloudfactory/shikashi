@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   # dependency for the rocket-chat notification
   s.add_dependency "evalhook", ">= 0.6.0"
   s.add_dependency "getsource", ">= 0.1.0"
-  s.add_development_dependency "rake", "~> 10.0", '>= 10.0.0'
+  s.add_development_dependency "rake", ">= 10.0.0", "~> 13.2"
 
   s.files = Dir.glob("{examples,lib,test}/**/*") +
     [ 'LICENSE', 'AUTHORS', 'CHANGELOG', 'Rakefile', 'TODO' ]
